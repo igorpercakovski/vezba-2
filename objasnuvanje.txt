@@ -1,0 +1,11 @@
+kako prvo  fajlovite gi zacuvav kako XLSM bidejki ako gi zacuvuvav
+kako CSV mi pravese problemi so header-ot, sigurno nesto se slucuvase koga ke probuvav 
+da gi zacuvuvam, dodeka so XLS nemase nikakov problem.
+
+1.Stavame snapovi za file read,odnosno gi vcituvame fajlovite Leads i CAIncomeByZip.
+2.Potoa stavame snapovi Exel parser za da gi obrabotime fajlovite.
+3.na prvata granka kade sto ni e Leads. stavame snap sort za da gi sortirame po ZIP
+bidejki ne bea sortirani i ni vrakjase greska
+4.potoa so snap join gi soedinuvame dvata fajla po kolonata ZIP po rastecki redoslet
+5.so snapot Exel formater go formatirame novodobieniot fajl vo exel
+6. i so file writter zapisuvame nov fajl so ime combined 
